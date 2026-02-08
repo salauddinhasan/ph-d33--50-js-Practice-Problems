@@ -1,14 +1,11 @@
-//  let, const, var দিয়ে একই ভ্যারিয়েবল declare করে পার্থক্য দেখাও
+ 
+
+//  বয়স দিয়ে vote দিতে পারবে কিনা চেক করো
 
 
-// let = Value পরিবর্তন করা যায়
-// Block-scoped → শুধু যেই block {} এর ভিতরে declare করা হয়েছে, ওখানেই কাজ করে
-
-
-// const = Value পরিবর্তন করা যায় না
-// Block-scoped
-
-
-// var = Value পরিবর্তন করা যায়
-
-// Function-scoped / globally scoped
+let age = 19;
+if(age >= 18) {
+    console.log('You are adult,  vote dite parbi');
+} else {
+    console.log('vote dite parbe na')
+}
