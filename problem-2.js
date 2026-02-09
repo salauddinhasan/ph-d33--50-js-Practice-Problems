@@ -1,11 +1,7 @@
-// একটি সংখ্যা বড় না ছোট 100 থেকে চেক করো
+//  1 থেকে 50 পর্যন্ত even সংখ্যা print করো
 
-let number = 10;
-
-if(number > 100) {
-    console.log('Number 100 theke boro');
-} else if(number < 100) {
-    console.log('Number 100 theke choto ');
-} else {
-    console.log('equal')
-};
+for(let i = 1; i <= 50; i++) {
+     if(i % 2 === 0) {
+        console.log(i);
+     }
+}

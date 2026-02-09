@@ -1,11 +1,12 @@
- 
+// 1 থেকে 10 পর্যন্ত সংখ্যা print করো
 
-//  বয়স দিয়ে vote দিতে পারবে কিনা চেক করো
+for(let i = 1; i <= 10; i++) {
+    console.log(i);
+}
 
 
-let age = 19;
-if(age >= 18) {
-    console.log('You are adult,  vote dite parbi');
-} else {
-    console.log('vote dite parbe na')
+// smart version 
+
+for(let i = 1; i <= 50; i += 2) {
+    console.log(i);
 }
