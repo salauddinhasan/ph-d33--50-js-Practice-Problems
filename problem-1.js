@@ -1,9 +1,5 @@
-//  একটি array তৈরি করে সব element print করো
-
-let subjects = ['Math', 'Python', 'Java', 'JavaScript', 'Html'];
-// console.log(subject);
+// একটি string এর length বের করো
 
 
- for(let subject of subjects) {
-    console.log(subject);
- }
+let country = 'Bangladesh';
+console.log(country.length);
